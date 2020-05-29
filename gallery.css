@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+    font-family:Raleway ;
+}
+a{
+  color: #fff;
+}
+
+
+
+.form-box{
+    width:80%;
+    background:rgba(0,0,0,.7);
+    margin:3% auto ;
+    padding:30px ;
+ 
+  color: #fff;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,.5);
+  border-radius:5px 5px 0 0 ;
+  overflow: hidden;
+  }
+  img{
+    float:left; 
+	width:30%;
+    margin:1.66% ;
+
+    
+  }
+
+.f1{
+    margin-bottom:25% ;
+}
+#image2{
+  margin-right: 30%;
+}

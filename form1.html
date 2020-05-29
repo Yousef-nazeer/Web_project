@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+    <title></title>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <a href="file:///E:/KolYa/second%20year/WebProject/Index.html"> go to home</a>
+
+    <div class="form-box">
+        <h1>register</h1> 
+        <form onsubmit="sayHello()">
+        <div class="style"> <label for="fname">First Name</label> 
+            <input id="fname" type="text" name="fname" placeholder="yousef" required> 
+            <label for="lname">Last Name</label> 
+            <input id="lname" type="text" name="lname"placeholder="Nazeer" required> 
+        </div>
+           
+        <div class="style">
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required="enter your phone">
+        </div>    
+        <div class="style"> 
+             <label for="addres">Adress</label> 
+            <input id="addres" type="text" name="addres" placeholder="yousef" required>
+         </div>    
+        <div class="style">
+            <label for="Male">Male</label> 
+            <input id="Male" type="radio" name="gender" value="Male">
+            <label for="Female">Female</label>
+            <input id="Female" type="radio" name="gender" value="Female">
+            <label for="other">Other</label> 
+            <input id="other" type="radio" name="gender" value="other">
+        </div>   
+          <div class="style">  
+               <label for="Email">Email</label>
+            <input id="Email" type="Email" name="Email" placeholder="email" required>
+            <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"  required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}"  title="Must contain at least one number and one uppercase and lowercase letter,and a special character, and all is 8 character">
+            </div>
+         <div class="style">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+          
+         </div>
+<div class="style"><label for="terms">I agree to the terms and conditions</label>
+    <input id="terms" type="checkbox" name="terms" required>
+</div>        
+            
+        
+            <button >submit</button>
+            <input type="reset">
+        </form>        
+    </div>
+
+
+</body>
+</html>
+</body>
+</html>
